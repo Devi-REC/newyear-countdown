@@ -1,0 +1,43 @@
+body{
+    background: url("./assets/img1.jpeg");
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   background-size: cover;
+   font-family: sans-serif;
+   margin:0; 
+}
+.countdown-container{
+    max-width: 900px;
+    min-height: 300px;
+    margin: 50px auto;
+    gap:80px;
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.countdown-values{
+    display: flex;
+}
+.big-text{
+    font-weight:bold;
+    font-size: 6.5rem;
+    line-height:0.6;
+    margin:10px;
+    margin-top: auto;
+    color:rgb(219, 130, 160);
+}
+.countdown-value{
+    width:120px;
+    margin: 10px 20px;
+    text-align: center;
+}
+.span{
+    color: rgb(137, 42, 93);
+}
+.h1{
+    color: rgb(233, 33, 106);
+    font-family:"Copperplate",Papyrus, fantasy;
+    font-size: large;
+    font-weight: bold;
+}
